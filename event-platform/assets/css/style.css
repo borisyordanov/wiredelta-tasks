@@ -1,0 +1,98 @@
+/* HTML elements */
+body {
+	background-color: #E7E7E8 !important;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+main {
+	background: #191919;
+	color: white;
+}
+
+footer {
+	height: 100px;
+	display: flex !important;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* RESETS */
+
+input {
+	background: none!important;
+	border: none!important;
+	border-bottom: 1px solid #fff!important;
+	border-radius: 0!important;
+	color: white;
+}
+
+input:focus {
+	box-shadow: none !important;
+	background: #191919;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+	padding: 5px;
+}
+
+.navbar {
+	margin-bottom: 0 !important;
+	height: 50px !important;
+}
+
+.navbar-collapse {
+	text-align: center !important;
+}
+
+.nav {
+	margin: 0px auto !important;
+	float: none !important;
+	display: inline-block !important;
+}
+
+.list-group-item {
+	color: #000;
+}
+
+/* Global */
+
+.logo {
+	height: 45px;
+}
+
+.icon {
+	height: 20px;
+}
+
+.icon-youtube {
+	height: 30px;
+}
+
+.padding-vert-30 {
+	padding: 30px 0;
+}
+
+.margin-reset {
+	margin: 0;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+/* Custom Styling */
+
+.welcome h1 {
+	color: #4a861d;
+}
+
+.carousel-caption {
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%)!important;
+}
